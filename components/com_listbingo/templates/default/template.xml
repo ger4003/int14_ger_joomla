@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>My Way</name>
+	<creationDate>8 July 2010</creationDate>
+	<author>Alex</author>
+	<authorEmail>alex@gobingoo.com</authorEmail>
+	<authorUrl>http://www.gobingoo.com</authorUrl>
+	<copyright>2010 gobingoo.com</copyright>
+	<license>GNU/GPL</license>
+	<version>1.2</version>
+	<description>Default Template for Listbingo</description>	
+
+	<params>
+		<param type="list" name="mootoolsversion" label="Mootools Version" description="Mootools Version" >
+		
+		<option value="m11">Mootools Ver 1.1.x</option>
+		<option value="m12">Mootools Ver 1.2.x</option>
+		
+		</param>
+		
+	</params>
+
+</install>

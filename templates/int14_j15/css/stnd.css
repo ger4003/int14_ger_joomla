@@ -1,0 +1,46 @@
+
+/*
+	___ FONT _________________________________
+*/
+
+body,
+button,
+label,
+select,
+textarea,
+input, 
+table {
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/*
+	___ RESET & STANDARDS _________________________________
+*/
+* {
+	margin: 0;
+	padding: 0;
+
+	background: none;
+	border: none;
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}

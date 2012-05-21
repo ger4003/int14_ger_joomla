@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>INT 14</name>
+	<creationDate>5 January 2011</creationDate>
+	<author>Kai</author>
+	<authorEmail>kai.lassen@skail.de</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>2011 skail.de</copyright>
+	<license>GNU/GPL</license>
+	<version>0.1</version>
+	<description>Copy of default Template for Listbingo</description>	
+
+	<params>
+		<param type="list" name="mootoolsversion" label="Mootools Version" description="Mootools Version" >
+		
+		<option value="m11">Mootools Ver 1.1.x</option>
+		<option value="m12">Mootools Ver 1.2.x</option>
+		
+		</param>
+		
+	</params>
+
+</install>

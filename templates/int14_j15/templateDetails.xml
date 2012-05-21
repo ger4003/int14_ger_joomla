@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>int14_j15</name>
+	<creationDate>2010-12-19</creationDate>
+	<author>Kai Lassen</author>
+	<authorEmail>kai.lassen@skail.de</authorEmail>
+	<authorUrl>http://www.skail.de</authorUrl>
+	<copyright>Kai Lassen 2010</copyright>
+	<license>GNU/GPL</license>
+	<version>0.4</version>
+	<description>INT 14 Template</description>
+	<positions>
+		<position>top</position>
+		<position>navigation</position>
+		<position>header</position>
+		<position>header_extra</position>
+		<position>breadcrumb</position>
+		<position>content_extra</position>
+		<position>fp_modules_top</position>
+		<position>fp_modules</position>
+		<position>fp_modules_half_left</position>
+		<position>fp_modules_half_right</position>
+		<position>sidebar</position>
+		<position>footer</position>
+	</positions>
+	<files>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<!-- css -->
+		<filename>css/content.css</filename>
+		<filename>css/forms.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/navi-flyout.css</filename>
+		<filename>css/navis.css</filename>
+		<filename>css/stnd.css</filename>
+		<filename>css/style.css</filename>
+		<!-- css/img -->
+		<filename>css/img/bg_headline_frontpage.jpg</filename>
+		<filename>css/img/bg_headline_wrap.png</filename>
+		<filename>css/img/bg_login_box.png</filename>
+		<filename>css/img/bullet_4x4_red.gif</filename>
+		<filename>css/img/bullet_4x4.gif</filename>
+		<filename>css/img/header_frontpage.jpg</filename>
+		<filename>css/img/headline_border_fading.jpg</filename>
+		<filename>css/img/headline_border.jpg</filename>
+		<filename>css/img/icon_arrow_left.gif</filename>
+		<filename>css/img/icon_arrow_right.gif</filename>
+		<filename>css/img/icon_button_arrow.gif</filename>
+		<!-- html -->
+		<filename>html/modules.php</filename>
+		<!-- html/com_content -->
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/article/form.php</filename>
+		<filename>html/com_content/article/pagebreak.php</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/default_links.php</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>		
+		<filename>html/com_content/section/default.php</filename>
+		<!-- html/com_eventlist -->
+		<filename>html/com_eventlist/categoriesdetailed/default_table.php</filename>
+		<filename>html/com_eventlist/categoriesdetailed/default.php</filename>
+		<filename>html/com_eventlist/categoryevents/default.php</filename>
+		<filename>html/com_eventlist/categoryevents/default_table.php</filename>
+		<filename>html/com_eventlist/details/default_attendees.php</filename>
+		<filename>html/com_eventlist/details/default.php</filename>
+		<filename>html/com_eventlist/editevent/default_attachments.php</filename>
+		<filename>html/com_eventlist/editevent/default.php</filename>
+		<filename>html/com_eventlist/venueevents/default.php</filename>
+		<!-- html/com_frontenduserarticlelist -->
+		<filename>html/com_frontenduserarticlelist/frontenduserarticlelist/default_edit_alias.php</filename>
+		<filename>html/com_frontenduserarticlelist/frontenduserarticlelist/default.php</filename>
+		<!-- html/com_user -->
+		<filename>html/com_user/register/default.php</filename>
+		<!-- html/mod_banners -->
+		<filename>html/mod_banners/default.php</filename>
+		<!-- html/mod_feed -->
+		<filename>html/mod_feed/default.php</filename>
+		<!-- html/mod_login -->
+		<filename>html/mod_login/default.php</filename>
+		<!-- html/mod_mainmenu -->
+		<filename>html/mod_mainmenu/default.php</filename>
+		<!-- images -->
+		<filename>images/fp_content_image.jpg</filename>
+		<filename>images/logo.jpg</filename>
+		<!-- js -->
+		<filename>js/jquery-1.4.4.min.js</filename>
+		<filename>js/jquery.hoverIntent.minified.js</filename>
+		<filename>js/jquery.tools.min.js</filename>
+		<filename>js/scripts.js</filename>
+		<filename>js/superfish.js</filename>
+	</files>
+</install>

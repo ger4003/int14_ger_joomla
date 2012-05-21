@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>Frontend User Article List</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2009-24-11</creationDate>
+	<author>Felipe Quinto Busanello</author>
+	<authorEmail>wmfelipe@gmail.com</authorEmail>
+	<authorUrl>http://wmfelipe.busanello.com.br/</authorUrl>
+	<copyright></copyright>
+	<license>GPLv2</license>
+	<!--  The version string is recorded in the components table -->
+	<version>2.0b</version>
+	<!-- The description is optional and defaults to the name -->
+	<description><![CDATA[The <big>Frontend User Article List</big> component display an article list, allowing that users can edit, copy, publish, move to trash and have a better control of its articles.<br />
+<br />
+<b>New features (v2.0b):</b><br />
+- Component configuration by Joomla administration panel (backend), that allows choose which data will be displayed in the listing, beyond others configurations<br />
+- Edition of the articles alias<br />
+- The columns Start publishing and Finish publishing has been added<br />
+- The Author alias is displayed together the Author name, when there is<br />
+- Authors and/or editors may publish/unpublish his articles if it's allowed<br />
+- The images publish_r.png and publish_g.png are now moved to the image directory of the component, because some installations of the Joomla have the /administrator directory password protected (added by ingenium)<br />
+- Fixed the problem with the directory separator on the Microsoft Windows environment (hehe)<br />
+- Ability to create articles copy (by Bob Steen)<br />
+- Users of the type author and/or editor can publish/unpublish his articles<br />
+- And more...<br />
+<br />
+<b>Other features:</b><br />
+- Ability to publish/unpublish an article just clicking the icon in the listing<br />
+- Search field<br />
+- Dropdown list for section, category and state<br />
+- Dropdown list for author (if the authenticated user have permission greater than the author permissions)<br />
+- Ability to create new articles<br />
+- Move to trash and restore articles<br />
+<br />
+<b>Download's translations:</b><br />
+- <a href='http://joomlacode.org/gf/project/fual/frs/?action=FrsReleaseBrowse&frs_package_id=4808' target='_blank'>joomlacode.org/gf/project/fual/frs/?action=FrsReleaseBrowse&frs_package_id=4808</a>
+	]]></description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="frontend">
+		
+		<filename>assets/css/index.html</filename>
+		<filename>assets/css/style.css</filename>
+		
+		<filename>assets/images/background_edit_alias_form.png</filename>
+		<filename>assets/images/ico_alias.png</filename>
+		<filename>assets/images/ico_article_add.png</filename>
+		<filename>assets/images/ico_copy.png</filename>
+		<filename>assets/images/ico_edit.png</filename>
+		<filename>assets/images/ico_edit_unpublished.png</filename>
+		<filename>assets/images/ico_restore.png</filename>
+		<filename>assets/images/ico_trash.png</filename>
+		<filename>assets/images/index.html</filename>
+		<filename>assets/images/publish_g.png</filename>
+		<filename>assets/images/publish_r.png</filename>
+		
+		<filename>assets/javascript/index.html</filename>
+		<filename>assets/javascript/script.js</filename>
+		
+		<filename>models/frontenduserarticlelist.php</filename>
+		<filename>models/index.html</filename>
+		
+		<filename>views/frontenduserarticlelist/tmpl/default.php</filename>
+		<filename>views/frontenduserarticlelist/tmpl/default_edit_alias.php</filename>
+		<filename>views/frontenduserarticlelist/tmpl/index.html</filename>
+		<filename>views/frontenduserarticlelist/index.html</filename>
+		<filename>views/frontenduserarticlelist/view.html.php</filename>
+		<filename>views/index.html</filename>
+		
+		<filename>controller.php</filename>
+		<filename>frontenduserarticlelist.php</filename>
+		<filename>index.html</filename>
+		
+	</files>
+	
+	<languages folder="languages-front">
+		<language tag="en-GB">en-GB.com_frontenduserarticlelist.ini</language>
+		<language tag="pt-BR">pt-BR.com_frontenduserarticlelist.ini</language>
+	</languages>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.frontenduserarticlelist.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.frontenduserarticlelist.sql</file>
+		</sql>
+	</uninstall>	
+	<administration>
+		<files folder="backend">
+		<!-- Site Main File Copy Section -->
+			<filename>assets/css/index.html</filename>
+			<filename>assets/css/style.css</filename>
+			
+			<filename>assets/index.html</filename>
+			
+			<filename>assets/images/index.html</filename>
+			<filename>assets/images/logofual.png</filename>
+			<filename>assets/images/logofual_18.png</filename>
+			
+			<filename>views/fual/tmpl/default.php</filename>
+			<filename>views/fual/tmpl/index.html</filename>
+			<filename>views/fual/index.html</filename>
+			<filename>views/fual/view.html.php</filename>
+			<filename>views/index.html</filename>
+			
+			<filename>admin.frontenduserarticlelist.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>install.frontenduserarticlelist.sql</filename>
+			<filename>LICENSE.txt</filename>
+			<filename>uninstall.frontenduserarticlelist.sql</filename>
+		</files>
+
+		<!-- Administration Language File Copy Section -->
+                <languages folder="languages-admin">
+                        <language tag="en-GB">en-GB.com_frontenduserarticlelist.ini</language>
+			<language tag="pt-BR">pt-BR.com_frontenduserarticlelist.ini</language>
+                </languages>
+	</administration>
+</install>

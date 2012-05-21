@@ -1,0 +1,138 @@
+.gb_advSearchOuterWrapper {
+	border:1px solid #ccc;
+	margin-bottom:8px;
+	padding:0 0 8px 0;
+}
+/* Search */
+#gb_search_wrapper {
+	margin: 0 auto;
+}
+#gb_search_wrapper h3 {
+	font: bold 18px Arial, Helvetica, sans-serif;
+	margin-bottom: 8px;
+	color: #2B6484;
+}
+#gb-search-form {
+	padding:10px 0 0 0;
+	overflow:hidden;
+}
+#gb_search_keyword {
+	background: none;
+	border: none;
+	float: left;
+	padding: 4px 6px 4px 0px;
+	width: 70%;
+	margin-right:8px;
+}
+#gb_search_keyword input {
+	background: #fff;
+	border:1px solid #ccc;
+	height:22px;
+	margin: 0;
+	outline: 0 none;
+	padding: 0 4px;
+	width: 100%;
+}
+#gb_search_submit {
+	float: left;
+	margin: 0px 1px 2px 0px;
+	width:25%;
+}
+#gb_search_submit input {
+}
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+#gb_search_title {
+	font: bold 18px Arial, Helvetica, sans-serif;
+	margin-bottom: 8px;
+	color: #d16800;
+}
+#gb_example {
+	padding-top: 8px;
+	color: #000;
+}
+#btnSubmit {
+	background: url(../images/gb-searchbtn.png) repeat-x right bottom;
+	width: 89px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#btnSubmit:hover {
+	background: url(../images/gb-searchbtnh.png) repeat-x right bottom;
+}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper{
+	width:100%;
+	background:none;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .mainSearch{
+	width:46%;
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+	color:#000;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .mainSearch input{
+	width:85%;
+	height:22px;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .prop_stage{
+	width:46%;
+	padding-top: 10px;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .prop_stage select{
+	width:auto;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .prop_stage input{
+	width:85%!important;
+	height:22px;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .price_stage_adv{
+	width:46%;
+	float:left;
+	color:#000;
+	padding-left:10px;
+	padding-top: 10px;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .price_stage_adv input{
+	width:40%;
+	height:22px;
+	}
+#gb_advSearchWrapper .gb_advSearchOuterWrapper .searchBtnHolder_adv{
+	width:40%;
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	}
+#gb_simpleSearch_wrapper .gb_search_simple {
+	padding: 5px;
+	background: none!important;
+	overflow: hidden;
+	border:1px solid #CBCBCB;
+}
+.prop_stage {
+	padding: 10px 0 0px 10px;
+	font: 12px/ 18px Arial, Helvetica, sans-serif;
+	color: #fff;
+	float: left;
+}
+
+.search_from_country{
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	width: 46%;
+}
+
+.search_from_region{
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	width: 46%;
+}

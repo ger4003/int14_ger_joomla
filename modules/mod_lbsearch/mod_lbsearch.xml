@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Listbingo Search Module</name>
+	<author>Gobingoo.com</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>(C) 2009 - 2010 Gobingoo. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyright/gpl.html GNU/GPL</license>
+	<authorEmail>info@gobingoo.com</authorEmail>
+	<authorUrl>www.gobingoo.com</authorUrl>
+	<version>1.3</version>
+	<description>Listbingo Search Module</description>
+	<files>
+		<filename module="mod_lbsearch">mod_lbsearch.php</filename>
+		<filename >index.html</filename>
+		<filename >helper.php</filename>		
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<params>
+		<param name="searchlayout" type="list" default="simple" label="Search Layout" description="The search layout">
+			<option value="simple">Simple Search</option>
+			<option value="advance">Advance Search</option>
+		</param>
+		
+		<param name="searchexampletxt" type="text" default="" label="Search Example Text" description="Search Example Text" />
+	
+		<param name="enable_searchexampletxt" type="list" default="0" label="Enable Search Example Text" description="Enable Search Example Text">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

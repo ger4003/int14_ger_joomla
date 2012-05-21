@@ -1,0 +1,36 @@
+/* flyout */
+@import "navi-flyout.css";
+
+
+/* hide first menu item which is home (frontpage) element */
+#navi_container ul.menu li.item_1 {
+	display: none;
+}
+
+/* content navi */
+
+#content ul.menu {
+	margin: 0 0 0 5px;
+}
+
+	#content ul.menu li {
+		background: url(img/bullet_4x4_red.gif) no-repeat 0 9px;
+		padding: 3px 0 0 12px; 
+	}
+	
+		#content ul.menu li a {
+			color: #616161;
+		}
+		
+		#content ul.menu li a:hover {
+			color: red;
+		}
+		
+		#content ul.menu li.active a {
+			color: #000000;
+			font-weight: bold;
+		}
+		
+		#content ul.menu li.active a:hover {
+			color: red;
+		}

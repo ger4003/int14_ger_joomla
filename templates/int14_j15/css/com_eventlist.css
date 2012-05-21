@@ -1,0 +1,180 @@
+/* EVENTLIST */
+.com_eventlist_details #content_inner {
+	width: 480px;
+}
+
+#eventlist .heading_wrap .componentheading {
+	background: url("img/bg_login_box.png") repeat 0 0;
+	padding: 10px 0 12px 20px;
+	font-style: italic;
+}
+
+#eventlist .contentheading {
+	background: url("img/headline_border_fading.jpg") no-repeat right bottom;
+	float: left;
+	display: inline;
+	padding: 0 82px 0 0px;
+	margin-left: 0px;
+}
+
+#eventlist .contentheading h2 {
+	background: url("img/headline_border.jpg") repeat-x right bottom;
+	padding: 0 50px 10px 10px;
+	font-weight: normal;
+}
+
+
+#eventlist .contentheading h3 {
+	background: url("img/headline_border.jpg") repeat-x right bottom;
+	padding: 0 50px 10px 10px;
+	font-weight: normal;
+}
+
+/* Tool Tip */
+.tool-tip {
+	background: red;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+	.tool-tip .tip-title {
+		font-weight: bold;
+	}
+
+/* category */
+
+.eventtable {
+	border: 1px solid #CCCCCC;
+}
+
+	/* thead */
+	.eventtable tr th {
+		background: transparent url("img/bg_headline_frontpage.jpg") repeat-x 0 0;
+		border-bottom: 1px solid #CCCCCC;
+
+		padding: 5px 0px;
+	}
+
+	/* tbody */
+	.eventtable tr td {
+		padding: 5px 10px 5px 0;
+	}
+
+		/* 660px
+			-110	550
+			-180	370
+			-200	170
+
+
+		*/
+		.eventtable .el_date {
+			width: 110px;
+			padding-left: 10px;
+		}
+
+		.eventtable .el_title {
+			width: 170px;
+		}
+
+		.eventtable .el_location {
+			width: 230px;
+		}
+
+		.eventtable .el_state {
+			width: 120px;
+		}
+
+/* link tips */
+#eventlist .editlinktip {
+	display: block;
+	float: right;
+}
+
+/* details */
+
+
+
+
+/* edit event */
+.el_editevent input.validate-date {
+	width: 70px;
+}
+
+.el_editevent dd img.calendar {
+	position: relative;
+	top: 4px;
+	left: 5px;
+}
+
+
+.el_editevent dl.el_date,
+.el_editevent dl.el_date dt,
+.el_editevent dl.el_date dd {
+	width: 145px;
+}
+
+.el_editevent .el_date select.inputbox {
+	width: 40px;
+	padding: 0px;
+}
+
+
+.el_editevent .recurrence_select {}
+
+.el_editevent #el-attachments .inputbox {
+	width: 95%;
+}
+
+.el_editevent #el-attachments tr.el-new-file {
+	background-color: #EFEFEF;
+}
+
+.el_editevent .el_save_buttons .button {
+	float: left;
+	margin-right: 10px;
+}
+.el_editevent #el-attachments select {
+	width: auto;
+}
+
+
+/* venueevnts */
+.el_venueevents .el_venue_image {
+	position: absolute;
+}
+
+	.el_venueevents .el_venue_image {
+		height: 100px;
+		width: auto;
+	}
+
+/* Buttons */
+
+.el_venue_add,
+.el_venue_reset,
+.el_venue_select {
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+}
+
+.el_venue_add {
+	background-image: url('img/icon-16-new.png');
+	width: 16px;
+	height: 16px;
+}
+
+.el_venue_select {
+	background-image: url('img/icon-16-new.png');
+	width: 16px;
+	height: 16px;
+}
+
+.el_venue_reset {
+	background-image: url('img/publish_x.png');
+	width: 16px;
+	height: 16px;
+}
+.el_venue_select {}

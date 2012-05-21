@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="new_article_button" type="radio" default="1" label="NEW_ARTICLE_BUTTON" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="link_new_article_default" type="radio" default="1" label="LINK_FOR_A_NEW_ARTICLE" description="LINK_FOR_A_NEW_ARTICLE_DESC">
+			<option value="1">Use_Joomla_default</option>
+			<option value="0">Use_my_own_link</option>
+		</param>
+		<param name="link_new_article" type="text" default="" label="CUSTOM_LINK" description="CUSTOM_LINK_DESC" />
+		
+		<param type="spacer" />
+		<param type="spacer" default="TABLE_DATA" />
+		
+		<param name="id_column" type="radio" default="1" label="ID_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="title_column" type="radio" default="1" label="TITLE_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="published_column" type="radio" default="1" label="PUBLISHED_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="section_column" type="radio" default="1" label="SECTION_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="category_column" type="radio" default="1" label="CATEGORY_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="author_column" type="radio" default="1" label="AUTHOR_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="created_date_column" type="radio" default="1" label="CREATED_DATE_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="start_publishing_column" type="radio" default="0" label="START_PUBLISHING_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="finish_publishing_column" type="radio" default="0" label="FINISH_PUBLISHING_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="hits_column" type="radio" default="1" label="HITS_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="edit_alias_column" type="radio" default="0" label="EDIT_ALIAS_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="copy_column" type="radio" default="0" label="COPY_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="edit_column" type="radio" default="1" label="EDIT_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="trash_column" type="radio" default="1" label="TRASH_COLUMN" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		
+		<param type="spacer" />
+		<param type="spacer" default="PERMISSION" />
+		<param name="authors_publishes" type="radio" default="0" label="ALLOW_THAT_AUTHORS_PUBLISHES_HIS_ARTICLES" description="ALLOW_THAT_AUTHORS_PUBLISHES_HIS_ARTICLES_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="editors_publishes" type="radio" default="0" label="ALLOW_THAT_EDITORS_PUBLISHES_HIS_ARTICLES" description="ALLOW_THAT_EDITORS_PUBLISHES_HIS_ARTICLES_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</config>

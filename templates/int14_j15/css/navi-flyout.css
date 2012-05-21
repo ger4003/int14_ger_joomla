@@ -1,0 +1,142 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+
+.sf-menu {
+	
+}
+.sf-menu ul {
+	position:	absolute;
+	top:			-9999px;
+	width:		180px; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	margin-left: 2px;
+	padding: 0 0 8px;	
+}
+
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			43px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-9999px;
+	
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/* Level 2 */
+ul.sf-menu li ul {
+	border: 1px solid #FF0000;
+}
+
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {	
+	text-decoration: none;
+	float:  left;
+}
+
+.sf-menu li {
+	background:		#FFFFFF;
+}
+.sf-menu li li {
+	background: #E1E1E1;
+	margin-left: 0px;
+}
+.sf-menu li li li {
+	background:		#9AAEDB;
+	margin-left: 0px;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#FF0000;
+	outline:		0;
+}
+/* level 2 */
+.sf-menu li li:hover, .sf-menu li li.sfHover, .sf-menu li li.active, 
+.sf-menu li li:hover a {
+	background: #C4C4C4;
+	color: #FFFFFF;
+}
+
+.sf-menu li li a:focus, .sf-menu li li a:hover, .sf-menu li li a:active {
+	text-decoration: underline;
+}
+
+.sf-menu li a {
+	padding: 7px 10px 0px;
+}
+
+.sf-menu li a:hover {
+	 
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	background:		#C4C4C4;	
+	padding: 0 0 5px;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+	overflow: hidden;
+}
+
+ .sf-menu li.active a.sf-with-ul {
+ 	background: #FF0000;
+ }
+
+.sf-menu a.sf-with-ul span {
+	background-color: #FFFFFF;
+	display: block;
+	float: left;
+	padding: 10px 10px 7px;
+}
+
+.sf-menu li:hover a.sf-with-ul,
+.sf-menu li.sfHover a.sf-with-ul {
+	background-color: #FF0000;
+}
+
+.sf-menu li:hover a.sf-with-ul span,
+.sf-menu li.sfHover a.sf-with-ul span {
+	background-color: #FFECEC;
+}
+
+.sf-menu a.sf-with-ul span.sf-sub-indicator {
+	padding-left: 0px;
+}
+

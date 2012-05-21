@@ -1,0 +1,231 @@
+/* Navigation */
+.gbNavigation {
+	float: right;
+	margin: 8px 10px 0;
+}
+
+.gbNavigation dl {
+	width: 200px;
+	border: 1px solid #CCCCCC;
+}
+
+	.gbNavigation dl dt {
+		background-color: #CCCCCC;
+		padding: 5px 10px 7px;
+		
+	}
+	
+	.gbNavigation dl dd {
+		padding: 5px 10px 5px 7px;
+	}
+	
+/* Ads */
+.com_listbingo_ads h4 {
+	font-size: 14px;
+}
+
+.com_listbingo_ads .description_wrap {
+	float: left;
+	width: 438px;
+}
+
+.com_listbingo_ads .contentdescription {
+	float: left;
+}
+
+ul.category_list .gb_listing dl dd {
+	margin: 0px;
+}
+
+.gb_normal_section {
+	position: relative;
+}
+
+.gb_listing_header {
+	margin: 0 0 2px;
+}
+
+.gb_item_category {
+	color: #7C7C7C;
+	margin: 0 0 5px;
+}
+
+.gb_listing_actions {
+	position: absolute;
+		bottom: 0px;
+		right: 0px;
+}
+
+.gb_listing_viewdetails {
+	width: 150px;
+}
+
+.gb_listing_body {
+	margin: 0 0 10px;
+	overflow: hidden;
+}
+
+	.gb_listing_body li {
+		margin: 0 7px 0 0 !important;
+	}
+
+/* Ads */
+
+.com_listbingo_ads .heading_wrap .componentheading,
+.com_listbingo_ad .heading_wrap .componentheading {
+	background: url("img/bg_login_box.png") repeat 0 0;
+	padding: 10px 0 12px 20px;
+	font-style: italic;
+}
+
+.com_listbingo_ads .contentheading {
+	background: url("img/headline_border_fading.jpg") no-repeat right bottom;
+	float: left;
+	display: inline;
+	padding: 0 82px 0 0px;
+	margin-left: 0px;
+}
+
+.com_listbingo_ads .contentheading h2 {
+	background: url("img/headline_border.jpg") repeat-x right bottom;
+	padding: 0 50px 10px 10px;
+	font-weight: normal;
+}
+
+
+.com_listbingo_ads .contentheading h3 {
+	background: url("img/headline_border.jpg") repeat-x right bottom;
+	padding: 0 50px 10px 10px;
+	font-weight: normal;
+}
+
+/* Ad */
+
+.com_listbingo_ad #content_inner {
+	width: 480px;
+}
+
+.com_listbingo_ad .componentheading .subheader {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 5px 0 0 20px;
+}
+
+.com_listbingo_ad .contentheading {
+	border-bottom: 1px solid #616161;
+	margin: 0 0 20px;
+	padding: 0 0 5px 10px; 
+}
+
+.com_listbingo_ad h3 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.gb_images {
+	float: left;
+	margin: 0 0 20px;
+	position: relative; /* for positioning of reply link */
+}
+
+	.gb_images .imageSlide {
+		float: left;
+	}
+	
+	.gb_images .gb_listing_normal_attributes {
+		width: 172px;
+		margin: 0 0 0 10px;
+	}
+
+	.gb_images .gb_listing_normal_attributes {
+		float: left;
+	}
+
+	.gb_images ul li {
+		float: left;
+		margin: 0 0 5px;
+	}
+
+	.gb_images dl {
+		float: left;
+		width: 172px;
+	}
+	
+		.gb_images dl dt {
+			float: left;
+			width: 65px;
+			font-weight: bold;
+		}
+		
+		.gb_images dl dd {
+			float: left;
+		}
+		
+	/* price */
+	dl.gb_ad_price  {
+		margin: 15px 0 0;
+		font-size: 14px;
+	}
+	
+	dl.gb_ad_price dt {
+		xmargin: 1px 0 0;
+	}
+	
+	dl.gb_ad_price dd {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	/* reply link */
+	.gb_addon_pms_reply {
+		overflow: hidden;
+	}
+	
+	.gb_addon_pms_reply img { 
+		float: left;
+		display: inline;
+		margin: 2px 5px 0 0;
+	}
+	
+	.gb_addon_pms_reply a { 
+		float: left;
+	}
+	
+	.gb_detail_section .gb_addon_pms_reply {
+		position: absolute;
+			bottom: 0px;
+			right: 0px;
+	}
+	
+	
+	/* description */
+	.gb_ad_description_title {
+		margin: 0 0 10px;
+		font-size: 12px;
+	}
+	
+	.gb_ad_description p {
+		margin: 0 0 10px;
+	}
+	
+	.gb_ad_description ul,
+	.gb_ad_description ol {
+		margin: 2px 0 10px 2px;
+	}
+	
+	.gb_ad_description ul li {
+		background: url("../images/bullet_4x4.gif") no-repeat 0 9px;
+		padding: 0 0 3px 12px;
+	}
+	
+	.gb_ad_description ol li {
+		padding: 0 0 3px;
+		margin: 0 0 0 19px;
+		list-style-type: decimal;
+	}
+	
+	*+html .gb_ad_description ol li {
+		margin: 0 0 0 23px;
+	}
+	

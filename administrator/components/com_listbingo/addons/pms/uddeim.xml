@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="addon" group="pms" method="upgrade">
+	<name>UddeIM Addon</name>
+	<creationDate>December, 2010</creationDate>
+	<author>gobingoo.com</author>
+	<authorEmail>info@gobingoo.com</authorEmail>
+	<authorUrl>http://www.gobingoo.com</authorUrl>
+	<copyright>(C) Gobingoo. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyright/gpl.html GNU/GPL</license>
+	<version>1.0</version>
+	<description>UddeIM PMS Integration Addon</description>
+ <install>
+        <queries>
+        </queries>
+    </install>
+
+<uninstall>
+        <queries>
+        </queries>
+    </uninstall>
+	<files>
+		<filename addon="uddeim">uddeim.php</filename>
+		<filename>controllers/uddeim.php</filename>	
+		<filename>img/replyemail.png</filename>	
+	</files>
+	<params> 
+				
+		<param name="uddeim_popup_width" type="text" default="500" label="Popup window width" description="Width" size="15"/>
+		<param name="uddeim_popup_height" type="text" default="350" label="Popup window height" description="Heigbht" size="15"/>	
+	</params>
+</install>

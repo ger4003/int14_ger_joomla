@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" group="attachments" version="1.5" method="upgrade">
+	<name>Attachments For EventList</name>
+	<creationDate>May 2010</creationDate>
+	<author>parvus</author>
+	<authorEmail>parvus@operamail;com</authorEmail>
+	<authorUrl>http://joomlacode.org/gf/project/eventlistattach/</authorUrl>
+	<copyright>Copyright (C) 2010. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL GPLv3</license>
+	<version>1.1</version>
+	<description>ATTACHMENTS_FOR_EVENTLIST_DESCRIPTION</description>
+	<params>
+	  <param name="allowAttachmentsOnCategories" type="radio" default="1" label="Allow Attachments on Event Categories" description="Allow Attachments At Categories Description">
+	    <option value="0">No</option>
+	    <option value="1">Yes</option>
+	  </param>
+	  <param name="allowAttachmentsOnLocations" type="radio" default="1" label="Allow Attachments on Event Locations" description="Allow Attachments At Locations Description">
+	    <option value="0">No</option>
+	    <option value="1">Yes</option>
+	  </param>
+	  <param name="allowAttachmentsOnEvents" type="radio" default="1" label="Allow Attachments on Events" description="Allow Attachments At Events Description">
+	    <option value="0">No</option>
+	    <option value="1">Yes</option>
+	  </param>
+    
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    
+    <param name="useAttachmentsAccessrightRules" type="radio" default="1" label="Use Attachments Accessright Rules" description="Use Attachments Accessright Rules Description">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>
+    <param name="useEventListAccessrightRules" type="radio" default="1" label="Use EventList Accessright Rules" description="Use EventList Accessright Rules Description">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>
+    
+	</params>
+	<files>
+		<filename plugin="attachments_for_eventlist">attachments_for_eventlist.php</filename>
+		<filename>plugins/com_eventlist.php</filename>
+		<filename>plugins/com_eventlist.ini</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_attachments_attachments_for_eventlist.ini</language>
+		<language tag="nl-NL">nl-NL.plg_attachments_attachments_for_eventlist.ini</language>
+	</languages>
+</install>

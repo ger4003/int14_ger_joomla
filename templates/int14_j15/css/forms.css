@@ -1,0 +1,310 @@
+form.stnd {}
+
+	
+.inputbox,
+select {
+	border: 1px solid #616161;
+	padding: 2px 2px 3px;	
+	background-color: #FFFFFF;
+}
+
+.inputbox {
+	width: 304px;
+}
+
+label {
+	font-weight: bold;
+}
+
+form fieldset {
+	margin: 0 0 15px;
+}
+
+form fieldset legend {
+	border-bottom: 1px solid #CCCCCC;
+	width: 100%;
+	padding: 0 0 3px;
+	margin: 0 0 15px;
+	
+	text-align: right;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+fieldset.input {}
+
+	fieldset.input dl,
+	fieldset.input dl dt,
+	fieldset.input dl dd {
+		width: 310px;
+	}
+
+	fieldset.input dl {
+		margin: 0 20px 8px 0;
+		float: left;
+		overflow: hidden;
+	}
+	
+	fieldset.input dl.column_last {
+		margin-right: 0px;
+	}
+	
+	
+		fieldset.input dl dt {
+			float: left;
+			margin: 0px 0 3px;
+			overflow: hidden;
+		}
+			
+			fieldset.input dl dt label {
+				margin: 4px 0 0;
+				float: left;
+			}
+
+		fieldset.input dl dd {
+			float: left;
+			margin: 0 0 3px;
+			overflow: hidden;
+		}
+
+	/* checkboxes */
+	
+	.checkbox {}
+		
+	fieldset.input dl.checkbox {
+		float: left;
+	}
+
+		fieldset.input dl.checkbox dt {
+			float: right;
+			width: auto;
+		}
+		
+			fieldset.input dl.checkbox dt label {
+				margin: 0px;
+			}
+	
+		fieldset.input dl.checkbox dd {
+			float: right;
+			width: 25px;
+		}
+
+		fieldset.input dl.checkbox .inputbox {}
+		
+
+		
+/* Buttons */
+.button {
+	display: block;
+	cursor: pointer;
+}
+
+.button_prm,
+.button_scd {
+	border: 1px solid #616161;
+	background-color: red;
+	
+	font-weight: bold;
+	font-size: 13px;
+	
+	padding: 5px 0;
+	width: 150px;
+	text-align: center;
+	color: #EFEFEF;
+}
+
+.button_scd {
+	background-color: #EFEFEF;
+	color: #616161;
+}
+
+.icon {
+	padding: 0 20px 2px 0;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.btn_arrow {
+	background: url(img/icon_button_arrow.gif) no-repeat right 0;
+	
+}
+
+
+/* Beitrag */
+.com_content_article form .button_wrap {
+	border-top: 1px solid #CCCCCC;
+	padding: 20px 0 0;
+}
+
+.com_content_article form .button_wrap .button {
+	float: right;
+}
+
+
+
+.com_content_article fieldset.input dl {
+	width: 480px;
+	margin-right: 0px;
+}
+
+	.com_content_article fieldset.input dl dt {
+		width: 170px;
+	}
+	
+	.com_content_article dl.date_select .inputbox {
+		width: 150px;
+	}
+	
+	.com_content_article dl.date_select img.calendar {
+		position: relative;
+		left: 5px;
+		top: 4px;
+	}
+
+/* Login Box */
+#form-login .inputbox {
+	width: 102px;
+}
+
+#form-login a {
+	text-decoration: none;
+}
+
+#form-login dl {
+	margin-right: 0px;
+	width: 218px;
+}
+
+#form-login dl dt,
+#form-login dl dd {
+	width: 109px;
+	float: left;
+}
+
+#form-login dl.checkbox {
+	width: 138px;
+}
+
+	#form-login dl.checkbox dt {
+		width: auto;
+		float: right;
+	}
+	
+	#form-login dl.checkbox dd {
+		width: 25px;
+		float: right;
+	}
+	
+	#form-login .button {
+		float: right;
+		margin: 3px 0 0;
+	}
+
+#form-login-remember label {
+	font-weight: normal;
+}
+
+/* RTE */
+#editor-xtd-buttons { padding: 5px; }
+
+/* -- buttons -> STILL NEED CLEANUP*/
+
+.button1,
+.button1 div{
+	height: 1%;
+	float: right;
+}
+
+.button2-left,
+.button2-right,
+.button2-left div,
+.button2-right div {
+	float: left;
+}
+
+.button1 { background: url(img/j_button1_left.png) no-repeat; white-space: nowrap; padding-left: 10px; margin-left: 5px;}
+
+.button1 .next { background: url(img/j_button1_next.png) 100% 0 no-repeat; }
+
+.button1 a {
+	display: block;
+	height: 26px;
+	float: left;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	cursor: pointer;
+	padding: 0 30px 0 6px;
+}
+
+.button1 a:hover { text-decoration: none; color: #0B55C4; }
+
+.button2-left a,
+.button2-right a,
+.button2-left span,
+.button2-right span {
+	display: block;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	font-size: 11px;
+	color: #333;
+	cursor: pointer;
+}
+
+.button2-left span,
+.button2-right span { cursor: default; color: #999; }
+
+.button2-left .page a,
+.button2-right .page a,
+.button2-left .page span,
+.button2-right .page span,
+.button2-left .blank a,
+.button2-right .blank a,
+.button2-left .blank span,
+.button2-right .blank span { padding: 0 6px; }
+
+.page span,
+.blank span {
+	color: #000;
+	font-weight: bold;
+}
+
+.button2-left a:hover,
+.button2-right a:hover { text-decoration: none; color: #0B55C4; }
+
+.button2-left a,
+.button2-left span { padding: 0 24px 0 6px; }
+
+.button2-right a,
+.button2-right span { padding: 0 6px 0 24px; }
+
+.button2-left { background: url(img/j_button2_left.png) no-repeat; float: left; margin-left: 5px; }
+
+.button2-right { background: url(img/j_button2_right.png) 100% 0 no-repeat; float: left; margin-left: 5px; }
+
+.button2-right .prev { background: url(img/j_button2_prev.png) no-repeat; }
+
+.button2-right.off .prev { background: url(img/j_button2_prev_off.png) no-repeat; }
+
+.button2-right .start { background: url(img/j_button2_first.png) no-repeat; }
+
+.button2-right.off .start { background: url(img/j_button2_first_off.png) no-repeat; }
+
+.button2-left .page,
+.button2-left .blank { background: url(img/j_button2_right_cap.png) 100% 0 no-repeat; }
+
+.button2-left .next { background: url(img/j_button2_next.png) 100% 0 no-repeat; }
+
+.button2-left.off .next { background: url(img/j_button2_next_off.png) 100% 0 no-repeat; }
+
+.button2-left .end { background: url(img/j_button2_last.png) 100% 0 no-repeat; }
+
+.button2-left.off .end { background: url(img/j_button2_last_off.png) 100% 0 no-repeat; }
+
+.button2-left .image 		{ background: url(img/j_button2_image.png) 100% 0 no-repeat; }
+.button2-left .readmore 	{ background: url(img/j_button2_readmore.png) 100% 0 no-repeat; }
+.button2-left .pagebreak 	{ background: url(img/j_button2_pagebreak.png) 100% 0 no-repeat; }
+.button2-left .blank	 	{ background: url(img/j_button2_blank.png) 100% 0 no-repeat; }
