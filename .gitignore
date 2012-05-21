@@ -2,8 +2,12 @@
 .project
 .gitignore
 .htaccess
+attachments/*
 cache/*
 installation/*
 logs/*
 tmp/*
+images/stories/upload/*
+media/listbingo/*
+media/com_eventlist/*
 configuration.php
