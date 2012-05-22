@@ -8,6 +8,7 @@ installation/*
 logs/*
 tmp/*
 images/stories/upload/*
+images/stories/gallery/*
 media/listbingo/*
 media/com_eventlist/*
 configuration.php
