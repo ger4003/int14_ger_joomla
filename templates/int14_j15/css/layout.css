@@ -1,12 +1,12 @@
 
-body {	
+body {
 	background: url(../images/bg_body/bg_body_1.jpg) no-repeat fixed right 0px;
 }
 
 
 #main_container {
 	background: url(../images/bg_white_95_prozent.png) repeat;
-	border: 1px solid #616161;	
+	border: 1px solid #616161;
 	margin: 30px 0 20px 15px;
 	width:  990px;
 }
@@ -14,43 +14,43 @@ body {
 	#top_container {
 		height: 30px;
 	}
-	
+
 		#search_container {}
-	
+
 	#header_container {
 		border: 1px solid #616161;
 		background: url(img/header_frontpage.jpg) no-repeat 0 0;
 		height: 186px;
 		margin: 0 30px;
 	}
-	
+
 		#header_extra {
 			background: url(img/bg_login_box.png) repeat 0 0;
 			float: right;
 			height: 156px;
 			width: 218px;
-			
+
 			padding: 20px 10px 10px;
 		}
-	
+
 	#navi_container {
 		background-color: #FFFFFF;
 		margin: 0 30px 0px;
 	}
-	
+
 	#navi_container .menu {
 		position: relative;
 		float: right;
 		margin: 44px 0 0;
 	}
-	
+
 	#logo {
 		float: left;
 		margin: 0 0 10px;
 	}
-	
+
 	/* content */
-	
+
 	#content {
 		width: 660px;
 		margin: 12px 30px 30px;
@@ -58,163 +58,182 @@ body {
 		position: relative;
 		line-height: 15px;
 	}
-	
+
 		#content_extra {
 			width: 160px;
 			margin: 0 0 0 10px;
 			float: left;
 		}
-		
+
 			#content_extra h4 {
 				margin: 0 0 6px;
 				font-size: 11px;
 				font-weight: bold;
 			}
-			
+
 			#content_extra .mod_wrap {
 				border-bottom: 5px solid #efefef;
 				padding: 10px 0;
 			}
-		
+
 		#content_inner {
 			float: left;
 			width: 100%;
-			margin: 5px 0 0 10px; 
+			margin: 5px 0 0 10px;
 		}
-		
+
 		/* BREADCRUMB */
 		.breadcrumbs {
 			border-bottom: 1px solid #CCCCCC;
 			display: block;
 			width: 640px;
-			
+
 			margin: 0 0 20px 10px;
 			padding: 0 0 10px 10px;
 		}
-	
+
 	/* sidebar */
-	
+
 	#sidebar {
 		xbackground-color: #EFEFEF;
 		width: 230px;
 		width: 240px;
-		
+
 		float: left;
 		padding: 42px 5px 0;
 		padding: 35px 0 0;
 	}
-	
+
 	#sidebar h4 {
 		background: url(img/bg_headline_frontpage.jpg) repeat-x 0 0;
 		border-bottom: 1px solid #616161;
 		border-bottom: 1px solid #CCCCCC;
-		
+
 		padding: 8px 10px;
 		margin: 0 0 10px;
 		font-size: 14px;
 	}
-	
+
 	#sidebar .mod_wrap {
 		border: 1px solid #616161;
 		border: 1px solid #CCCCCC;
 		background-color: #FFFFFF;
 		margin: 0 0 30px;
 	}
-	
+
 	#sidebar .mod_content_wrap {
 		padding: 0 10px 10px;
 	}
-	
+
 	#sidebar .mod_content_wrap .menu li {
 		margin: 0 0 5px;
 	}
-	
+
 	#sidebar .mod_content_wrap .menu li.active {
 		font-weight: bold;
 	}
-	
+
 	#sidebar .mod_content_wrap .menu li a {
 		text-decoration: none;
 	}
-	
+
 	/* footer */
-	
+
 	#footer {
 		border-top: 1px solid #616161;
 		height: 30px;
 		margin: 0px 30px 20px;
 		padding: 10px 20px 0;
 	}
-	
+
 	#footer .menu li {
 		float: left;
 		margin: 0 20px 0 0;
 	}
-	
+
+	#footer .menu li a {
+		float: left;
+	}
+
+	#footer .menu li img {
+		float: left;
+		display: inline;
+		margin: 0 5px 0 0;
+		width: 20px;
+		height: 20px;
+	}
+
+	#footer .menu li span {
+		display: inline;
+		float: left;
+		margin-top: 3px;
+	}
+
+
 	/* article */
 	.com_content_article {}
-	
+
 	.com_content_article #content_inner {
 		width: 480px;
 	}
-	
+
 	.com_content_article .componentheading {}
-	
+
 	/* section */
 	.com_content_section {}
-	
+
 	.com_content_section #content_inner {
 		width: 650px;
 	}
-	
+
 	/* category */
 	.com_content_category {}
-	
+
 	.com_content_category .contentpane {
 		margin: 0px;
 	}
-	
+
 	.com_content_category .contentdescription {
 		margin-right: 10px;
-		margin-left: 10px; 
+		margin-left: 10px;
 	}
-	
-	
+
+
 	/* frontpage */
 	#content.com_content_frontpage {
 		width: 930px;
 		margin-bottom: 0px;
 	}
-	
+
 	.com_content_frontpage .modules {
 		float: left;
 		margin: 0 0 30px;
 	}
-	
+
 		#fp_content_inner {
 			width: 622px;
 			height: 200px;
 			overflow: hidden;
 		}
-		
+
 		#fp_modules_top {
 			width: 285px;
 			margin: 0 0 0 21px;
 		}
-		
+
 		#fp_modules_image {
 			width: 287px;
 			margin: 0 20px 30px;;
 		}
-		
+
 		#fp_modules {
 			width: 603px;
 		}
-		
+
 			#fp_modules .mod_wrap {
 				position: relative;
 			}
-		
+
 		#fp_modules_half_left {
 			width: 460px;
 			margin: 0 10px 0 0;
@@ -222,18 +241,18 @@ body {
 		#fp_modules_half_right {
 			width: 460px;
 		}
-	
+
 	.com_content_frontpage .mod_content_wrap {
 		margin: 0 20px;
 	}
-	
+
 	#fp_modules .mod_content_wrap {
 		position: relative;
 		margin: 0;
 	}
-	
+
 	/* listbingo */
-	
+
 	.com_listbingo_ad #content_inner {
 		width: 480px;
 	}
