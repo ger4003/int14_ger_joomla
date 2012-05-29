@@ -1,7 +1,25 @@
+/**
+ * Responsive design screen definitions: android default
+ * 
+ * (http://developer.android.com/guide/practices/screens_support.html)
+ *   xlarge - screens are at least 960dp x 720dp
+ *   large  - screens are at least 640dp x 480dp
+ *   normal - screens are at least 470dp x 320dp
+ *   
+ */
 
 @import "stnd.css";
-@import "layout.css";
-@import "navis.css";
-@import "content.css";
-@import "forms.css";
-@import "com_eventlist.css";
+
+/* --- screen: xlarge --- */
+@import "layout.css" screen and (min-width: 720px);
+@import "navis.css" screen and (min-width: 720px);
+@import "content.css" screen and (min-width: 720px);
+@import "forms.css" screen and (min-width: 720px);
+@import "com_eventlist.css" screen and (min-width: 720px);
+
+/* --- screen: large --- 
+@media screen and (max-width: 719px)  {}
+*/
+
+/* --- screen: normal --- */
+@import "mobile_layout.css" screen and (max-width: 479px);

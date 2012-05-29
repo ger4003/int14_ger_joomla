@@ -1,5 +1,6 @@
 
-body {
+ 
+ body {
 	background: url(../images/bg_body/bg_body_1.jpg) no-repeat fixed right 0px;
 }
 
@@ -256,5 +257,3 @@ body {
 	.com_listbingo_ad #content_inner {
 		width: 480px;
 	}
-	
-/* responsive design definitions */

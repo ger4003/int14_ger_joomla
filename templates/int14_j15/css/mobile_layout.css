@@ -1,0 +1,9 @@
+body {
+	background-color: pink;
+}
+
+#header_container,
+#fp_modules_image {
+	display: none;
+}
+
