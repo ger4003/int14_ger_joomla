@@ -1,10 +1,10 @@
 form.stnd {}
 
-	
+
 .inputbox,
 select {
 	border: 1px solid #616161;
-	padding: 2px 2px 3px;	
+	padding: 2px 2px 3px;
 	background-color: #FFFFFF;
 }
 
@@ -25,7 +25,7 @@ form fieldset legend {
 	width: 100%;
 	padding: 0 0 3px;
 	margin: 0 0 15px;
-	
+
 	text-align: right;
 	font-weight: bold;
 	font-size: 14px;
@@ -45,18 +45,18 @@ fieldset.input {}
 		float: left;
 		overflow: hidden;
 	}
-	
+
 	fieldset.input dl.column_last {
 		margin-right: 0px;
 	}
-	
-	
+
+
 		fieldset.input dl dt {
 			float: left;
 			margin: 0px 0 3px;
 			overflow: hidden;
 		}
-			
+
 			fieldset.input dl dt label {
 				margin: 4px 0 0;
 				float: left;
@@ -69,9 +69,9 @@ fieldset.input {}
 		}
 
 	/* checkboxes */
-	
+
 	.checkbox {}
-		
+
 	fieldset.input dl.checkbox {
 		float: left;
 	}
@@ -80,20 +80,20 @@ fieldset.input {}
 			float: right;
 			width: auto;
 		}
-		
+
 			fieldset.input dl.checkbox dt label {
 				margin: 0px;
 			}
-	
+
 		fieldset.input dl.checkbox dd {
 			float: right;
 			width: 25px;
 		}
 
 		fieldset.input dl.checkbox .inputbox {}
-		
 
-		
+
+
 /* Buttons */
 .button {
 	display: block;
@@ -104,10 +104,10 @@ fieldset.input {}
 .button_scd {
 	border: 1px solid #616161;
 	background-color: red;
-	
+
 	font-weight: bold;
 	font-size: 13px;
-	
+
 	padding: 5px 0;
 	width: 150px;
 	text-align: center;
@@ -127,17 +127,19 @@ fieldset.input {}
 
 .btn_arrow {
 	background: url(img/icon_button_arrow.gif) no-repeat right 0;
-	
+
 }
 
 
 /* Beitrag */
-.com_content_article form .button_wrap {
+.com_content_article form .button_wrap,
+.com_content_article_static form .button_wrap {
 	border-top: 1px solid #CCCCCC;
 	padding: 20px 0 0;
 }
 
-.com_content_article form .button_wrap .button {
+.com_content_article form .button_wrap .button,
+.com_content_article_static form .button_wrap .button {
 	float: right;
 }
 
@@ -151,12 +153,14 @@ fieldset.input {}
 	.com_content_article fieldset.input dl dt {
 		width: 170px;
 	}
-	
-	.com_content_article dl.date_select .inputbox {
+
+	.com_content_article dl.date_select .inputbox,
+	.com_content_article_static dl.date_select .inputbox {
 		width: 150px;
 	}
-	
-	.com_content_article dl.date_select img.calendar {
+
+	.com_content_article dl.date_select img.calendar,
+	.com_content_article_static dl.date_select img.calendar {
 		position: relative;
 		left: 5px;
 		top: 4px;
@@ -190,12 +194,12 @@ fieldset.input {}
 		width: auto;
 		float: right;
 	}
-	
+
 	#form-login dl.checkbox dd {
 		width: 25px;
 		float: right;
 	}
-	
+
 	#form-login .button {
 		float: right;
 		margin: 3px 0 0;

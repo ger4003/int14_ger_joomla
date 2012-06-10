@@ -78,7 +78,7 @@ function submitbutton(pressbutton) {
 	<fieldset class="input">
 		<legend><?php echo JText::_('Editor'); ?></legend>
 		<dl class="">
-			<dt>		
+			<dt>
 				<label for="title"><?php echo JText::_( 'Title' ); ?>:</label>
 			</dt>
 			<dd>
@@ -91,7 +91,7 @@ function submitbutton(pressbutton) {
 		echo $this->editor->display('text', $this->article->text, '100%', '400', '70', '15');
 		?>
 	</fieldset>
-	
+
 	<fieldset class="input">
 		<legend><?php echo JText::_('Publishing'); ?></legend>
 		<dl>
@@ -102,9 +102,8 @@ function submitbutton(pressbutton) {
 				<?php echo $this->lists['sectionid']; ?>
 			</dd>
 		</dl>
-		<div class="clear"><!--  --></div>
-		
-		<dl>
+
+		<dl class="column_last">
 			<dt>
 				<label for="catid"><?php echo JText::_( 'Category' ); ?>:</label>
 			</dt>
@@ -113,7 +112,7 @@ function submitbutton(pressbutton) {
 			</dd>
 		</dl>
 		<div class="clear"><!--  --></div>
-		
+
 		<?php if ($this->user->authorize('com_content', 'publish', 'content', 'all')) : ?>
 		<dl>
 			<dt>
@@ -123,9 +122,8 @@ function submitbutton(pressbutton) {
 				<?php echo $this->lists['state']; ?>
 			</dd>
 		</dl>
-		<div class="clear"><!--  --></div>
 		<?php endif; ?>
-		
+
 		<dl>
 			<dt>
 				<label for="frontpage"><?php echo JText::_( 'Show on Front Page' ); ?>:</label>
@@ -135,7 +133,7 @@ function submitbutton(pressbutton) {
 			</dd>
 		</dl>
 		<div class="clear"><!--  --></div>
-		
+
 		<dl>
 			<dt>
 				<label for="created_by_alias"><?php echo JText::_( 'Author Alias' ); ?>:</label>
@@ -145,7 +143,7 @@ function submitbutton(pressbutton) {
 			</dd>
 		</dl>
 		<div class="clear"><!--  --></div>
-		
+
 		<dl class="date_select">
 			<dt>
 				<label for="publish_up"><?php echo JText::_( 'Start Publishing' ); ?>:</label>
@@ -154,7 +152,6 @@ function submitbutton(pressbutton) {
 				<?php echo JHTML::_('calendar', $publish_up, 'publish_up', 'publish_up', '%Y-%m-%d %H:%M:%S', array('class'=>'inputbox', 'size'=>'25',  'maxlength'=>'19')); ?>
 			</dd>
 		</dl>
-		<div class="clear"><!--  --></div>
 
 		<dl class="date_select">
 			<dt>
@@ -165,7 +162,7 @@ function submitbutton(pressbutton) {
 			</dd>
 		</dl>
 		<div class="clear"><!--  --></div>
-		
+
 		<dl>
 			<dt>
 				<label for="access"><?php echo JText::_( 'Access Level' ); ?>:</label>
@@ -174,8 +171,7 @@ function submitbutton(pressbutton) {
 				<?php echo $this->lists['access']; ?>
 			</dd>
 		</dl>
-		<div class="clear"><!--  --></div>
-		
+
 		<dl>
 			<dt>
 				<label for="ordering"><?php echo JText::_( 'Ordering' ); ?>:</label>
@@ -189,7 +185,7 @@ function submitbutton(pressbutton) {
 
 	<fieldset class="input">
 		<legend><?php echo JText::_('Metadata'); ?></legend>
-		
+
 		<dl>
 			<dt>
 				<label for="metadesc"><?php echo JText::_( 'Description' ); ?>:</label>
@@ -198,8 +194,7 @@ function submitbutton(pressbutton) {
 				<textarea rows="5" cols="50" class="inputbox" id="metadesc" name="metadesc"><?php echo str_replace('&','&amp;',$this->article->metadesc); ?></textarea>
 			</dd>
 		</dl>
-		<div class="clear"><!--  --></div>
-		
+
 		<dl>
 			<dt>
 				<label for="metakey"><?php echo JText::_( 'Keywords' ); ?>:</label>
@@ -219,7 +214,7 @@ function submitbutton(pressbutton) {
 		</button>
 		<div class="clear"><!--  --></div>
 	</div>
-	
+
 	<input type="hidden" name="option" value="com_content" />
 	<input type="hidden" name="id" value="<?php echo $this->article->id; ?>" />
 	<input type="hidden" name="version" value="<?php echo $this->article->version; ?>" />
