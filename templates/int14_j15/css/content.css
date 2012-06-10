@@ -155,12 +155,14 @@ a.more {
 /* article */
 
 .com_content_article h3,
+.com_content_article_static h3,
 .com_frontenduserarticlelist_frontenduserarticlelist h3 {
 	font-size: 18px;
 	font-weight: normal;
 }
 
 .com_content_article .heading_wrap .componentheading,
+.com_content_article_static .heading_wrap .componentheading,
 .com_frontenduserarticlelist_frontenduserarticlelist .heading_wrap .componentheading {
 	background: url("img/bg_login_box.png") repeat 0 0;
 	padding: 10px 0 12px 20px;
@@ -180,6 +182,7 @@ a.more {
 }
 
 .com_content_article  .contentheading,
+.com_content_article_static  .contentheading,
 .com_frontenduserarticlelist_frontenduserarticlelist .contentheading {
 	border-bottom: 1px solid #616161;
 	margin: 0 0 20px;
@@ -188,12 +191,14 @@ a.more {
 
 .com_content_article .button_wrap {}
 
-.com_content_article .button_wrap .button {
+.com_content_article .button_wrap .button,
+.com_content_article_static .button_wrap .button {
 	float: left;
 	margin-right: 10px;
 }
 
-.com_content_article .button_wrap_top {
+.com_content_article .button_wrap_top,
+.com_content_article_static .button_wrap_top  {
 	position: absolute;
 	right: 0px;
 	top: 35px;
