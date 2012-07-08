@@ -36,7 +36,9 @@ $cparams =& JComponentHelper::getParams('com_media');
 			<dl>
 				<dt class="<?php echo $category->image_position; ?>">
 					<?php if($category->image):?>
-					<img src="<?php echo $this->baseurl . '/' . $cparams->get('image_path') . '/'.  $category->image;?>" align="<?php echo $this->category->image_position;?>" hspace="6" alt="<?php echo $category->image;?>" />
+					<a href="<?php echo $category->link; ?>">
+						<img src="<?php echo $this->baseurl . '/' . $cparams->get('image_path') . '/'.  $category->image;?>" align="<?php echo $this->category->image_position;?>" hspace="6" alt="<?php echo $category->image;?>" />
+					</a>
 					<?php endif; ?>
 				</dt>
 				<dd>			
