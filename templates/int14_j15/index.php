@@ -123,7 +123,7 @@ if(JRequest::getCmd('view') != "frontpage")
 
 
 			<div id="fp_modules_image" class="modules image_wrap">
-				<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fp_content_image_3.jpg" />
+				<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fp_content_image_<?php echo rand(0,3) ?>.jpg" />
 			</div>
 			<div id="fp_modules" class="modules">
 				<jdoc:include type="modules" name="fp_modules" style="frontpage" />
