@@ -64,7 +64,7 @@ $categories = modLbSummaryHelper::getCategories($params);
 							<?php if(!empty($baujahr->title)):?>
 							<!-- <span class="label"><?php echo $baujahr->title;?>:</span> <?php echo $baujahr->field_value;?><br /> -->
 							<?php endif;?>
-
+							<!-- <?php echo ad->price ?> -->
 							<span class="label">Preis:</span> <?php echo number_format($ad->price,0); ?> <?php echo $ad->currencycode; ?>
 						</dd>
 					</dl>
