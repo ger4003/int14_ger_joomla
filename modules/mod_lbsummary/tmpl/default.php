@@ -64,8 +64,15 @@ $categories = modLbSummaryHelper::getCategories($params);
 							<?php if(!empty($baujahr->title)):?>
 							<!-- <span class="label"><?php echo $baujahr->title;?>:</span> <?php echo $baujahr->field_value;?><br /> -->
 							<?php endif;?>
-							<!-- <?php echo $ad->price ?> -->
-							<span class="label">Preis:</span> <?php echo number_format($ad->price,0); ?> <?php echo $ad->currencycode; ?>
+
+							<span class="label">Preis:</span>
+							<?php if($ad->pricetype == 1): // priceable ?>
+							<?php echo number_format($ad->price,0); ?> <?php echo $ad->currencycode; ?>
+							<?php elseif($ad->pricetype == 2): // free ?>
+							frei
+							<?php elseif($ad->pricetype == 3): // verhandelbar ?>
+							VHB
+							<?php endif;?>
 						</dd>
 					</dl>
 
