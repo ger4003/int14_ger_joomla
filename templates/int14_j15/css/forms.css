@@ -312,3 +312,22 @@ fieldset.input {}
 .button2-left .readmore 	{ background: url(img/j_button2_readmore.png) 100% 0 no-repeat; }
 .button2-left .pagebreak 	{ background: url(img/j_button2_pagebreak.png) 100% 0 no-repeat; }
 .button2-left .blank	 	{ background: url(img/j_button2_blank.png) 100% 0 no-repeat; }
+
+
+/*  Listbingo */
+.gb_captcha_verification input {
+	border: 1px solid #616161;
+	padding: 2px 2px 3px;
+	background-color: #FFFFFF;
+}
+
+.gb_button_wrapper button {
+	background-color: #EFEFEF;
+	border: 1px solid #616161;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px 0;
+	width: 150px;
+	text-align: center;
+	color: #616161;
+}
