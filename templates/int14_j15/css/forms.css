@@ -2,6 +2,7 @@ form.stnd {}
 
 
 .inputbox,
+.inputtextbox1,
 select {
 	border: 1px solid #616161;
 	padding: 2px 2px 3px;
