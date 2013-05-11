@@ -85,8 +85,12 @@ if(!is_null($this->article)
 	<?php endif; ?>
 
 	<div class="contentpane">
-		<div class="contentdescription"><?php echo $this->article->introtext; ?></div>
-		<?php echo $this->article->fulltext; ?>
+		<?php if ($this->article->fulltext == ''): ?>
+			<?php echo $this->article->introtext; ?>
+		<?php else: ?>
+			<span class="intro"><?php echo $this->article->introtext; ?></span>
+			<?php echo $this->article->fulltext; ?>
+		<?php endif; ?>
 		<div class="clear"><!--  --></div>
 	</div>
 

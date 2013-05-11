@@ -37,6 +37,11 @@ h5 {
 }
 
 
+.contentpane h3, .contentpane h4,
+.contenttext h3, .contenttext h4 {
+	padding: 10px 0 10px;
+}
+
 .heading_wrap {
 	background: url("img/bg_headline_wrap.png") repeat-y right 0;
 
@@ -208,6 +213,19 @@ a.more {
 	position: relative;
 	margin: 0 10px;
 }
+
+	.contentpane p {
+		margin: 0 0 10px;
+	}
+
+	.contentpane .intro {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	.contentpane .intro p {
+		margin: 0 0 20px;
+	}
 
 #fp_content_inner .contentpane {
 	position: relative; /* for use of scrollable.navi */
