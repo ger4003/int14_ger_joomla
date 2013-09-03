@@ -31,7 +31,9 @@ $categories = modLbSummaryHelper::getCategories($params);
 	<div class="clear"><!--  --></div>
 
 	<div class="scrollable scrollable-tabs">
-		<div class="browse"><a href="<?php echo JRoute::_("index.php?option=com_listbingo&Itemid=$listitemid&task=ads&catid=".$category->id); ?>">alle anzeigen</a></div>
+		<div class="browse">
+			<a href="<?php echo JRoute::_("index.php?option=com_listbingo&Itemid=$listitemid&task=ads"); ?>">alle anzeigen</a>
+		</div>
 		<div class="items">
 			<?php foreach($categories as $category):?>
 			<ul class="item_list">
